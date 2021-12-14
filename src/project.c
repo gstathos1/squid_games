@@ -1,6 +1,6 @@
-void printGame(int levels, char *row1, char *row2)
+void printGame(int levels, char *row1, char *row2)          /* George G */
 {
-    printf("\n0:  |");
+    printf("\n0:  |");                         
     for(int i = 0; i < levels; i++)
     {
         printf("%c|", row1[i]);
@@ -18,4 +18,3 @@ void printGame(int levels, char *row1, char *row2)
         printf("%c|", row2[i]);
     }
 }
-    
